@@ -1,0 +1,14 @@
+.y-container{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      &-header{
+        flex-shrink:0;
+      }
+      &-footer{
+        flex-shrink:0;   
+      }
+      &-content{
+        flex-grow: 1;  
+      }
+}
